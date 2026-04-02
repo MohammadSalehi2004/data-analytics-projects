@@ -62,13 +62,13 @@ codveda-data-analytics-internship/
 ## Visualizations of Plots folder
 
 ### Stock Price Trend
-![Price Trend](Level1/plots/price_trend.png)
+![Price Trend](Level1/Plots/price_trend.png)
 
 ### Average Monthly Closing Price
-![Monthly Average](Level1/plots/monthly_avg_price.png)
+![Monthly Average](Level1/Plots/monthly_avg_price.png)
 
 ### Open vs Close Price
-![Scatter Plot](Level1/plots/open_vs_close.png)
+![Scatter Plot](Level1/Plots/open_vs_close.png)
 ---
 
 ## How to Run the Project
