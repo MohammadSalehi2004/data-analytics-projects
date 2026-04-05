@@ -143,6 +143,7 @@ Now install everything thats needed which is listed in the requirements text fil
 
 ```bash
 pip install -r requirements.txt
+```
 
 3. Run the codes inside each level folder so that it works
 
