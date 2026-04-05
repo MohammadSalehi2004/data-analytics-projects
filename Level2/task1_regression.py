@@ -5,9 +5,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_squared_error
 
+# The path for the csv file
+input_file = "Data/house_Prediction_Data_Set.csv"
 
-# loading the data form csv file into a dataframe
-df = pd.read_csv("Data/house_prediction.csv")
+#loading dataset
+df = pd.read_csv(input_file)
 
 # showing some information about the dataset and learning to clean it up from level 1 task 1
 print("First 5 rows of the dataset:")
