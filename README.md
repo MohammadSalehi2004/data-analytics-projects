@@ -166,46 +166,42 @@ data-analytics-projects/
 ```
 ## Visualizations of Plots folder
 
-### Stock Price Trend
+### Level 1 Visualizations
+
+#### Stock Price Trend
 ![Price Trend](Level1/Plots/price_trend.png)
 
-### Average Monthly Closing Price
+#### Average Monthly Closing Price
 ![Monthly Average](Level1/Plots/monthly_avg_price.png)
 
-### Open vs Close Price
+#### Open vs Close Price
 ![Scatter Plot](Level1/Plots/open_vs_close.png)
 
 ---
 
-### Regression Plot (Actual vs Predicted Prices)
+### Level 2 Visualizations
+
+#### Regression Plot (Actual vs Predicted Prices)
 ![Regression Plot](Level2/Plots/regression_plot.png)
 
-### Elbow Method (Optimal Clusters)
+#### Elbow Method (Optimal Clusters)
 ![Elbow Method](Level2/Plots/elbow_method.png)
 
-### Iris Clusters Visualization
+#### Iris Clusters Visualization
 ![Iris Clusters](Level2/Plots/iris_clusters.png)
 
 ---
 
-### Model Accuracy Comparison
+### Level 3 Visualizations
+
+#### Model Accuracy Comparison
 ![Model Comparison](Level3/Plots/model_comparison.png)
 
-### Sentiment Distribution
+#### Sentiment Distribution
 ![Sentiment Distribution](Level3/Plots/sentiment_distribution.png)
 
-### Word Frequencies
+#### Word Frequencies
 ![Word Frequencies](Level3/Plots/word_frequencies.png)
----
-
-### Regression Plot (Actual vs Predicted Prices)
-![Regression Plot](Level2/Plots/regression_plot.png)
-
-### Elbow Method (Optimal Clusters)
-![Elbow Method](Level2/Plots/elbow_method.png)
-
-### Iris Clusters Visualization
-![Iris Clusters](Level2/Plots/iris_clusters.png)
 ---
 
 ## How to Run the Project
