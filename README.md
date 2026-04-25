@@ -1,4 +1,4 @@
-# Codveda Data Analytics Internship
+# Data Analytics Project (Structured Learning Program)
 
 This repository contains tasks completed as part of the Codveda Data Analytics Internship. The focus of this project is to apply data analysis techniques using Python and gain some experience by doing tasks and getting a feel of how a real world role would look like.
 
@@ -101,11 +101,36 @@ Tools:
 Output:
 - model_comparison.png  
 
+### Task 3: Sentiment Analysis (NLP)
+
+* Used sentiment dataset containing text data
+* Performed text preprocessing including:
+  * Tokenization
+  * Removing stopwords
+  * Lemmatization
+* Applied sentiment analysis using TextBlob
+* Classified text into Positive, Negative, and Neutral categories
+* Visualized sentiment distribution using a bar chart
+* Visualized word frequencies using a word cloud
+
+Output:
+- sentiment_distribution.png  
+- word_frequencies.png  
+
+Tools:
+- Python
+- pandas
+- matplotlib
+- seaborn
+- nltk
+- textblob
+- wordcloud
+
 ---
 ## Project Structure
 
 ```
-codveda-data-analytics-internship/
+data-analytics-projects/
 │
 ├── Data/
 │   ├── stock_prices.csv
@@ -130,8 +155,11 @@ codveda-data-analytics-internship/
 │       └── iris_clusters.png
 ├── Level3/
 │   ├── task1_classification.py
+│   ├── task3_sentiment_analysis.py
 │   └── Plots/
-│       └── model_comparison.png
+│       ├── model_comparison.png
+│       ├── sentiment_distribution.png
+│       └── word_frequencies.png
 ├── README.md
 └── requirements.txt
 
@@ -158,23 +186,53 @@ codveda-data-analytics-internship/
 
 ### Iris Clusters Visualization
 ![Iris Clusters](Level2/Plots/iris_clusters.png)
+
+---
+
+### Model Accuracy Comparison
+![Model Comparison](Level3/Plots/model_comparison.png)
+
+### Sentiment Distribution
+![Sentiment Distribution](Level3/Plots/sentiment_distribution.png)
+
+### Word Frequencies
+![Word Frequencies](Level3/Plots/word_frequencies.png)
+---
+
+### Regression Plot (Actual vs Predicted Prices)
+![Regression Plot](Level2/Plots/regression_plot.png)
+
+### Elbow Method (Optimal Clusters)
+![Elbow Method](Level2/Plots/elbow_method.png)
+
+### Iris Clusters Visualization
+![Iris Clusters](Level2/Plots/iris_clusters.png)
 ---
 
 ## How to Run the Project
 
 1. Clone the repository:
+git clone [repo link]
 
-```
-git clone https://github.com/yourusername/codveda-data-analytics-internship.git
-```
+2. Navigate into the project folder:
+cd data-analytics-projects
 
-2. Install dependencies:
-
-```
+3. Install dependencies:
 pip install -r requirements.txt
-```
 
-3. Run the codes inside each level folder so that it works
+4. Run the scripts:
+
+Level 1:
+python Level1/task1_data_cleaning.py
+python Level1/task3_visualization.py
+
+Level 2:
+python Level2/task1_regression.py
+python Level2/task3_clustering.py
+
+Level 3:
+python Level3/task1_classification.py
+python Level3/task3_sentiment_analysis.py
 
 ---
 
@@ -196,6 +254,7 @@ These datasets are used for data cleaning, visualization, regression, clustering
 
 * For Level 1, I learned how to stregthen my skills regarding datsets by improving my understanding of handling missing values, formatting data, and presenting insights visually and how to plot and visualize graphs in a cleaner way.
 * In Level 2, I learned how to apply machine learning techniques such as Linear Regression and K-Means clustering in a more professional manner. I now gained experience in evaluating models using R² score and learned to use MSE and visualizing results to understand model performance.
+* In Level 3, I learned how to work with text data using natural language processing techniques such as tokenization, removing stopwords, and lemmatization. I also learned how to perform sentiment analysis using TextBlob and evaluate results using accuracy, precision, recall, and F1 Score. This helped me understand how machine learning can be applied to both structured and unstructured data.
 ---
 
 ## Author
@@ -207,4 +266,4 @@ These datasets are used for data cleaning, visualization, regression, clustering
 
 ## Notes
 
-This repository is part of an internship project and will be updated as more tasks are completed.
+This repository reflects my learning and development in data analytics using Python. The work was completed as part of a structured learning program, where I gained hands-on experience in data cleaning, visualization, machine learning, and natural language processing.
