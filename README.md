@@ -1,7 +1,6 @@
-# Data Analytics Project (Structured Learning Program)
+# Data Analytics Projects (Python)
 
-This repository contains tasks completed as part of the Codveda Data Analytics Internship. The focus of this project is to apply data analysis techniques using Python and gain some experience by doing tasks and getting a feel of how a real world role would look like.
-
+This repository contains data analytics tasks completed as part of a structured learning program. The focus of this project is to apply data analysis techniques using Python and gain hands-on experience with real-world data.
 ---
 
 ## Level 1 Tasks
