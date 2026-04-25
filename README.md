@@ -6,7 +6,7 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
 
 ## Level 1 Tasks
 
-### 🔹 Task 1: Data Cleaning and Preprocessing
+### Task 1: Data Cleaning and Preprocessing
 
 * Loaded raw dataset using pandas
 * Handled missing values (removal/imputation)
@@ -16,7 +16,7 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
 
 ---
 
-### 🔹 Task 3: Basic Data Visualization
+### Task 3: Basic Data Visualization
 
 * Created visualizations such as:
 
@@ -31,11 +31,17 @@ Output:
 - monthly_avg_price.png  
 - open_vs_close.png
 
+## Tools
+Tools:
+- Python
+- pandas
+- matplotlib
+- seaborn
 ---
 
 ## Level 2 Tasks
 
-### 🔹 Task 1: Regression Analysis
+### Task 1: Regression Analysis
 
 * Used House Prediction dataset but the cells were all messed up so I had AI fix it(all the columns were in column A)
 * Performed data inspection and basic cleaning (handling missing values like level 1 task 1)
@@ -50,7 +56,7 @@ Output:
 Output:
 - regression_plot.png 
 
-### 🔹 Task 3: Clustering Analysis (K-Means)
+### Task 3: Clustering Analysis (K-Means)
 
 * Used Iris dataset  
 * Removed the last column called species since it was in text form and not numerical
@@ -62,17 +68,40 @@ Output:
 Output:
 - elbow_method.png  
 - iris_clusters.png  
----
+
 ## Tools
-
-* Python
-* pandas
-* matplotlib
-* seaborn
-* scikit-learn
-
+Tools:
+- Python
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
 ---
 
+## Level 3 Tasks
+
+### Task 1: Predictive Modeling (Classification)
+
+* Used churn dataset to predict whether a customer will leave or not
+* Cleaned the data
+* Converted categorical data into numerical values
+* Split dataset into training (80%) and testing (20%)  
+* Applied multiple classification models such as:
+  * Decision Tree
+  * Logistic Regression
+  * Random Forest
+* Evaluated model performance using:
+  * Accuracy
+  * Precision
+  * Recall
+  * F1 Score
+* Compared model performance using a bar chart
+* Performed hyperparameter tuning using GridSearchCV to improve model performance
+
+Output:
+- model_comparison.png  
+
+---
 ## Project Structure
 
 ```
@@ -99,9 +128,14 @@ codveda-data-analytics-internship/
 │       ├── regression_plot.png
 │       ├── elbow_method.png
 │       └── iris_clusters.png
-│
+├── Level3/
+│   ├── task1_classification.py
+│   └── Plots/
+│       └── model_comparison.png
 ├── README.md
 └── requirements.txt
+
+
 ```
 ## Visualizations of Plots folder
 
@@ -146,13 +180,15 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The datasets used in this project include stock price data, house prediction data, and the iris dataset, and are used for:
+These datasets are in Data folder:
 
-* Data cleaning and preprocessing
-* Trend analysis and visualization
-* Regression analysis
-* Clustering analysis
-* They are provided inside the Data folder for the internship
+* stock_prices.csv - used for Level 1
+* cleaned_stock_prices.csv - cleaned version of the stock prices dataset
+* house_Prediction_Data_Set.csv - used for Level 2
+* iris.csv - used for Level 2
+* churn-bigml-80.csv - used for Level 3
+
+These datasets are used for data cleaning, visualization, regression, clustering, and classification tasks.
 
 ---
 
@@ -165,7 +201,7 @@ The datasets used in this project include stock price data, house prediction dat
 ## Author
 
 **Mohammad Salehi**
-Student Learning Assistant – Information Technology year 1 at Middlesex University Dubai
+– Information Technology year 1 at Middlesex University Dubai
 
 ---
 
